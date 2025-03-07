@@ -17,7 +17,7 @@ import torch.nn.init as nninit
 
 from loguru import logger
 
-from tools.utils import aa2rotmat, rotmat2aa, d62rotmat
+from creach.tools.utils import aa2rotmat, rotmat2aa, d62rotmat
 
 
 @torch.no_grad()
